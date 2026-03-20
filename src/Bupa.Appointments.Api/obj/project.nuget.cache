@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "gqFJoh7ro1Y=",
+  "success": true,
+  "projectFilePath": "/Users/anishaareddy/Documents/Anishaa_docs/BupaFullStack_2ndRound/Bupa_2ndRoundAnishaa/BupaAppointments/src/Bupa.Appointments.Api/Bupa.Appointments.Api.csproj",
+  "expectedPackageFiles": [
+    "/Users/anishaareddy/.nuget/packages/microsoft.aspnetcore.openapi/10.0.0/microsoft.aspnetcore.openapi.10.0.0.nupkg.sha512",
+    "/Users/anishaareddy/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,1023 @@
+{
+  "appointments": [
+    {
+      "Id": "45a31997-9024-4cc9-b5d5-b6f60c89d00a",
+      "Category": "GP",
+      "Status": "Completed",
+      "Patient": {
+        "Id": "48444a1a-7491-418b-ac85-d7574862511b",
+        "FirstName": "Alex",
+        "LastName": "Nguyen",
+        "Dob": "1990-05-12",
+        "Phone": "\u002B61411111111",
+        "Email": "alex.nguyen@example.com",
+        "Insurance": {
+          "Provider": "MediPlus",
+          "MemberId": "MP-10001"
+        }
+      },
+      "Provider": {
+        "Id": "f700b2f7-a615-4cc3-a4b6-d0247d8b7d41",
+        "Name": "Dr. Grace Taylor",
+        "Role": "GP"
+      },
+      "Location": {
+        "Type": "InPerson",
+        "ClinicName": "Harbour Health Clinic",
+        "Room": "R1",
+        "Address": "Level 5, 123 George St, Sydney NSW",
+        "Timezone": "Australia/Sydney"
+      },
+      "StartTime": "2026-03-11T09:00:00+11:00",
+      "EndTime": "2026-03-11T09:30:00+11:00",
+      "CreatedAt": "2026-03-04T09:00:00+11:00",
+      "UpdatedAt": "2026-03-05T09:00:00+11:00",
+      "Price": {
+        "Amount": 95.0,
+        "Currency": "AUD"
+      },
+      "RescheduleCount": 0,
+      "Notes": "Routine check-up done",
+      "CancellationPolicyHours": 24,
+      "Tags": [],
+      "Warnings": []
+    },
+    {
+      "Id": "ae281a73-552b-413d-b092-0d5b02c448a8",
+      "Category": "Dermatology",
+      "Status": "NoShow",
+      "Patient": {
+        "Id": "0d2ccb28-5b08-4756-81fc-71690e17954a",
+        "FirstName": "Sofia",
+        "LastName": "Martinez",
+        "Dob": "1998-02-14",
+        "Phone": "\u002B61444444444",
+        "Email": "sofia.martinez@example.com",
+        "Insurance": {
+          "Provider": "MediPlus",
+          "MemberId": "MP-10004"
+        }
+      },
+      "Provider": {
+        "Id": "19f3136c-2864-4fb1-ab74-72c5ce1dff00",
+        "Name": "Dr. Emily Zhou",
+        "Role": "Dermatologist"
+      },
+      "Location": {
+        "Type": "InPerson",
+        "ClinicName": "Harbour Health Clinic",
+        "Room": "R4",
+        "Address": "Level 5, 123 George St, Sydney NSW",
+        "Timezone": "Australia/Sydney"
+      },
+      "StartTime": "2026-03-14T11:00:00+11:00",
+      "EndTime": "2026-03-14T11:45:00+11:00",
+      "CreatedAt": "2026-03-07T11:00:00+11:00",
+      "UpdatedAt": "2026-03-08T11:00:00+11:00",
+      "Price": {
+        "Amount": 95.0,
+        "Currency": "AUD"
+      },
+      "RescheduleCount": 0,
+      "Notes": "Missed mole check",
+      "CancellationPolicyHours": 24,
+      "Tags": [],
+      "Warnings": []
+    },
+    {
+      "Id": "aefdb76e-c978-4c3f-b91d-22b23c53ba14",
+      "Category": "GP",
+      "Status": "Booked",
+      "Patient": {
+        "Id": "ac587f5e-1fc9-4e3a-bc94-9359a3fef9a7",
+        "FirstName": "Priya",
+        "LastName": "Sharma",
+        "Dob": "1985-11-03",
+        "Phone": "\u002B61422222222",
+        "Email": "priya.sharma@example.com",
+        "Insurance": {
+          "Provider": "HealthOne",
+          "MemberId": "HO-10002"
+        }
+      },
+      "Provider": {
+        "Id": "f700b2f7-a615-4cc3-a4b6-d0247d8b7d41",
+        "Name": "Dr. Grace Taylor",
+        "Role": "GP"
+      },
+      "Location": {
+        "Type": "Telehealth",
+        "ClinicName": null,
+        "Room": null,
+        "Address": null,
+        "Timezone": "Australia/Sydney"
+      },
+      "StartTime": "2026-03-16T15:00:00+11:00",
+      "EndTime": "2026-03-16T15:30:00+11:00",
+      "CreatedAt": "2026-03-09T15:00:00+11:00",
+      "UpdatedAt": "2026-03-10T15:00:00+11:00",
+      "Price": {
+        "Amount": 95.0,
+        "Currency": "AUD"
+      },
+      "RescheduleCount": 0,
+      "Notes": "Telehealth cough consult",
+      "CancellationPolicyHours": 24,
+      "Tags": [],
+      "Warnings": []
+    },
+    {
+      "Id": "8fe14e16-43c6-4e99-aa3d-7338d06c4398",
+      "Category": "Physiotherapy",
+      "Status": "Booked",
+      "Patient": {
+        "Id": "7b4c3a1f-e5f7-48fb-93f6-ece7ceb4fb8d",
+        "FirstName": "Ethan",
+        "LastName": "Wang",
+        "Dob": "1979-09-30",
+        "Phone": "\u002B61455555555",
+        "Email": "ethan.wang@example.com",
+        "Insurance": {
+          "Provider": "HealthOne",
+          "MemberId": "HO-10005"
+        }
+      },
+      "Provider": {
+        "Id": "618d1caa-67e6-44d4-b9d2-b08d9310af76",
+        "Name": "Ava Thompson",
+        "Role": "Physiotherapist"
+      },
+      "Location": {
+        "Type": "InPerson",
+        "ClinicName": "Harbour Health Clinic",
+        "Room": "R5",
+        "Address": "Level 5, 123 George St, Sydney NSW",
+        "Timezone": "Australia/Sydney"
+      },
+      "StartTime": "2026-03-16T17:15:00+11:00",
+      "EndTime": "2026-03-16T18:15:00+11:00",
+      "CreatedAt": "2026-03-09T17:15:00+11:00",
+      "UpdatedAt": "2026-03-10T17:15:00+11:00",
+      "Price": {
+        "Amount": 95.0,
+        "Currency": "AUD"
+      },
+      "RescheduleCount": 0,
+      "Notes": "Knee rehab session",
+      "CancellationPolicyHours": 24,
+      "Tags": [],
+      "Warnings": []
+    },
+    {
+      "Id": "4c92121c-85a5-4955-b987-6a5c15b90276",
+      "Category": "Pediatrics",
+      "Status": "Booked",
+      "Patient": {
+        "Id": "ac0653e4-f5e9-4efd-b4cb-b35de65e06a6",
+        "FirstName": "Liam",
+        "LastName": "O\u0027Connor",
+        "Dob": "2016-07-21",
+        "Phone": "\u002B61433333333",
+        "Email": "parent.oconnor@example.com",
+        "Insurance": {
+          "Provider": "KidsCare",
+          "MemberId": "KC-10003"
+        }
+      },
+      "Provider": {
+        "Id": "37dfd8d1-9576-4b55-a2d3-63a9de0fc688",
+        "Name": "Dr. Olivia Brown",
+        "Role": "Pediatrician"
+      },
+      "Location": {
+        "Type": "InPerson",
+        "ClinicName": "Harbour Health Clinic",
+        "Room": "R3",
+        "Address": "Level 5, 123 George St, Sydney NSW",
+        "Timezone": "Australia/Sydney"
+      },
+      "StartTime": "2026-03-17T12:00:00+11:00",
+      "EndTime": "2026-03-17T12:30:00+11:00",
+      "CreatedAt": "2026-03-10T12:00:00+11:00",
+      "UpdatedAt": "2026-03-11T12:00:00+11:00",
+      "Price": {
+        "Amount": 95.0,
+        "Currency": "AUD"
+      },
+      "RescheduleCount": 0,
+      "Notes": "Child vaccination",
+      "CancellationPolicyHours": 24,
+      "Tags": [],
+      "Warnings": []
+    },
+    {
+      "Id": "1dc332a1-c578-4193-ad41-5807935d2202",
+      "Category": "Dental",
+      "Status": "Booked",
+      "Patient": {
+        "Id": "48444a1a-7491-418b-ac85-d7574862511b",
+        "FirstName": "Alex",
+        "LastName": "Nguyen",
+        "Dob": "1990-05-12",
+        "Phone": "\u002B61411111111",
+        "Email": "alex.nguyen@example.com",
+        "Insurance": {
+          "Provider": "MediPlus",
+          "MemberId": "MP-10001"
+        }
+      },
+      "Provider": {
+        "Id": "484a90a7-2804-4c6e-bec5-c9684b7ffc32",
+        "Name": "Dr. Michael Chen",
+        "Role": "Dentist"
+      },
+      "Location": {
+        "Type": "InPerson",
+        "ClinicName": "Harbour Health Clinic",
+        "Room": "R1",
+        "Address": "Level 5, 123 George St, Sydney NSW",
+        "Timezone": "Australia/Sydney"
+      },
+      "StartTime": "2026-03-18T14:00:00+11:00",
+      "EndTime": "2026-03-18T14:30:00+11:00",
+      "CreatedAt": "2026-03-11T14:00:00+11:00",
+      "UpdatedAt": "2026-03-12T14:00:00+11:00",
+      "Price": {
+        "Amount": 180.0,
+        "Currency": "AUD"
+      },
+      "RescheduleCount": 0,
+      "Notes": "Dental check \u0026 clean",
+      "CancellationPolicyHours": 24,
+      "Tags": [],
+      "Warnings": []
+    },
+    {
+      "Id": "69323f3e-98ac-4dc3-a734-ced9d31f9c86",
+      "Category": "Optometry",
+      "Status": "Booked",
+      "Patient": {
+        "Id": "0d2ccb28-5b08-4756-81fc-71690e17954a",
+        "FirstName": "Sofia",
+        "LastName": "Martinez",
+        "Dob": "1998-02-14",
+        "Phone": "\u002B61444444444",
+        "Email": "sofia.martinez@example.com",
+        "Insurance": {
+          "Provider": "MediPlus",
+          "MemberId": "MP-10004"
+        }
+      },
+      "Provider": {
+        "Id": "a6d40938-d103-49e9-8c21-d709de119b32",
+        "Name": "Dr. Noah Patel",
+        "Role": "Optometrist"
+      },
+      "Location": {
+        "Type": "InPerson",
+        "ClinicName": "Harbour Health Clinic",
+        "Room": "R4",
+        "Address": "Level 5, 123 George St, Sydney NSW",
+        "Timezone": "Australia/Sydney"
+      },
+      "StartTime": "2026-03-19T13:00:00+11:00",
+      "EndTime": "2026-03-19T13:20:00+11:00",
+      "CreatedAt": "2026-03-12T13:00:00+11:00",
+      "UpdatedAt": "2026-03-13T13:00:00+11:00",
+      "Price": {
+        "Amount": 120.0,
+        "Currency": "AUD"
+      },
+      "RescheduleCount": 0,
+      "Notes": "Prescription update",
+      "CancellationPolicyHours": 24,
+      "Tags": [],
+      "Warnings": []
+    },
+    {
+      "Id": "0d975ed6-c0c3-4f10-8c7d-feee259873f3",
+      "Category": "Dermatology",
+      "Status": "Booked",
+      "Patient": {
+        "Id": "7b4c3a1f-e5f7-48fb-93f6-ece7ceb4fb8d",
+        "FirstName": "Ethan",
+        "LastName": "Wang",
+        "Dob": "1979-09-30",
+        "Phone": "\u002B61455555555",
+        "Email": "ethan.wang@example.com",
+        "Insurance": {
+          "Provider": "HealthOne",
+          "MemberId": "HO-10005"
+        }
+      },
+      "Provider": {
+        "Id": "19f3136c-2864-4fb1-ab74-72c5ce1dff00",
+        "Name": "Dr. Emily Zhou",
+        "Role": "Dermatologist"
+      },
+      "Location": {
+        "Type": "Telehealth",
+        "ClinicName": null,
+        "Room": null,
+        "Address": null,
+        "Timezone": "Australia/Sydney"
+      },
+      "StartTime": "2026-03-23T14:00:00+11:00",
+      "EndTime": "2026-03-23T14:40:00+11:00",
+      "CreatedAt": "2026-03-16T14:00:00+11:00",
+      "UpdatedAt": "2026-03-17T14:00:00+11:00",
+      "Price": {
+        "Amount": 95.0,
+        "Currency": "AUD"
+      },
+      "RescheduleCount": 0,
+      "Notes": "Rash follow-up",
+      "CancellationPolicyHours": 24,
+      "Tags": [],
+      "Warnings": []
+    },
+    {
+      "Id": "1239e671-cd86-459e-80bd-3be5072b4c65",
+      "Category": "Dental",
+      "Status": "Booked",
+      "Patient": {
+        "Id": "ac587f5e-1fc9-4e3a-bc94-9359a3fef9a7",
+        "FirstName": "Priya",
+        "LastName": "Sharma",
+        "Dob": "1985-11-03",
+        "Phone": "\u002B61422222222",
+        "Email": "priya.sharma@example.com",
+        "Insurance": {
+          "Provider": "HealthOne",
+          "MemberId": "HO-10002"
+        }
+      },
+      "Provider": {
+        "Id": "484a90a7-2804-4c6e-bec5-c9684b7ffc32",
+        "Name": "Dr. Michael Chen",
+        "Role": "Dentist"
+      },
+      "Location": {
+        "Type": "InPerson",
+        "ClinicName": "Harbour Health Clinic",
+        "Room": "R2",
+        "Address": "Level 5, 123 George St, Sydney NSW",
+        "Timezone": "Australia/Sydney"
+      },
+      "StartTime": "2026-03-20T15:00:00+11:00",
+      "EndTime": "2026-03-20T16:30:00+11:00",
+      "CreatedAt": "2026-03-13T15:00:00+11:00",
+      "UpdatedAt": "2026-03-14T15:00:00+11:00",
+      "Price": {
+        "Amount": 650.0,
+        "Currency": "AUD"
+      },
+      "RescheduleCount": 0,
+      "Notes": "Wisdom tooth extraction",
+      "CancellationPolicyHours": 48,
+      "Tags": [
+        "HighComplexity",
+        "Procedure"
+      ],
+      "Warnings": []
+    },
+    {
+      "Id": "466a9e97-dea0-4862-98bd-b7bc4806f5da",
+      "Category": "GP",
+      "Status": "Cancelled",
+      "Patient": {
+        "Id": "48444a1a-7491-418b-ac85-d7574862511b",
+        "FirstName": "Alex",
+        "LastName": "Nguyen",
+        "Dob": "1990-05-12",
+        "Phone": "\u002B61411111111",
+        "Email": "alex.nguyen@example.com",
+        "Insurance": {
+          "Provider": "MediPlus",
+          "MemberId": "MP-10001"
+        }
+      },
+      "Provider": {
+        "Id": "f700b2f7-a615-4cc3-a4b6-d0247d8b7d41",
+        "Name": "Dr. Grace Taylor",
+        "Role": "GP"
+      },
+      "Location": {
+        "Type": "InPerson",
+        "ClinicName": "Harbour Health Clinic",
+        "Room": "R1",
+        "Address": "Level 5, 123 George St, Sydney NSW",
+        "Timezone": "Australia/Sydney"
+      },
+      "StartTime": "2026-03-22T13:00:00+11:00",
+      "EndTime": "2026-03-22T13:30:00+11:00",
+      "CreatedAt": "2026-03-15T13:00:00+11:00",
+      "UpdatedAt": "2026-03-16T13:00:00+11:00",
+      "Price": {
+        "Amount": 95.0,
+        "Currency": "AUD"
+      },
+      "RescheduleCount": 0,
+      "Notes": "Cancelled by patient",
+      "CancellationPolicyHours": 24,
+      "Tags": [],
+      "Warnings": []
+    },
+    {
+      "Id": "3b19fe75-c84a-4f2a-ab47-a7251e4ece27",
+      "Category": "GP",
+      "Status": "Booked",
+      "Patient": {
+        "Id": "48444a1a-7491-418b-ac85-d7574862511b",
+        "FirstName": "Alex",
+        "LastName": "Nguyen",
+        "Dob": "1990-05-12",
+        "Phone": "\u002B61411111111",
+        "Email": "alex.nguyen@example.com",
+        "Insurance": {
+          "Provider": "MediPlus",
+          "MemberId": "MP-10001"
+        }
+      },
+      "Provider": {
+        "Id": "f700b2f7-a615-4cc3-a4b6-d0247d8b7d41",
+        "Name": "Dr. Grace Taylor",
+        "Role": "GP"
+      },
+      "Location": {
+        "Type": "InPerson",
+        "ClinicName": "Harbour Health Clinic",
+        "Room": "R1",
+        "Address": "Level 5, 123 George St, Sydney NSW",
+        "Timezone": "Australia/Sydney"
+      },
+      "StartTime": "2026-03-19T21:00:00+11:00",
+      "EndTime": "2026-03-19T21:30:00+11:00",
+      "CreatedAt": "2026-03-12T21:00:00+11:00",
+      "UpdatedAt": "2026-03-13T21:00:00+11:00",
+      "Price": {
+        "Amount": 95.0,
+        "Currency": "AUD"
+      },
+      "RescheduleCount": 0,
+      "Notes": "Blood pressure review",
+      "CancellationPolicyHours": 24,
+      "Tags": [],
+      "Warnings": [
+        "This appointment overlaps with another appointment for the same provider"
+      ]
+    },
+    {
+      "Id": "7dc91895-dbd5-4a7c-8880-56c54be8696a",
+      "Category": "GP",
+      "Status": "Booked",
+      "Patient": {
+        "Id": "0d2ccb28-5b08-4756-81fc-71690e17954a",
+        "FirstName": "Sofia",
+        "LastName": "Martinez",
+        "Dob": "1998-02-14",
+        "Phone": "\u002B61444444444",
+        "Email": "sofia.martinez@example.com",
+        "Insurance": {
+          "Provider": "MediPlus",
+          "MemberId": "MP-10004"
+        }
+      },
+      "Provider": {
+        "Id": "f700b2f7-a615-4cc3-a4b6-d0247d8b7d41",
+        "Name": "Dr. Grace Taylor",
+        "Role": "GP"
+      },
+      "Location": {
+        "Type": "InPerson",
+        "ClinicName": "Harbour Health Clinic",
+        "Room": "R4",
+        "Address": "Level 5, 123 George St, Sydney NSW",
+        "Timezone": "Australia/Sydney"
+      },
+      "StartTime": "2026-03-19T21:15:00+11:00",
+      "EndTime": "2026-03-19T21:45:00+11:00",
+      "CreatedAt": "2026-03-12T21:15:00+11:00",
+      "UpdatedAt": "2026-03-13T21:15:00+11:00",
+      "Price": {
+        "Amount": 95.0,
+        "Currency": "AUD"
+      },
+      "RescheduleCount": 0,
+      "Notes": "Overlapping slot - should be blocked",
+      "CancellationPolicyHours": 24,
+      "Tags": [],
+      "Warnings": [
+        "This appointment overlaps with another appointment for the same provider"
+      ]
+    },
+    {
+      "Id": "7acad644-4949-498a-b387-f48b6022d886",
+      "Category": "GP",
+      "Status": "Booked",
+      "Patient": {
+        "Id": "d33983c2-d738-4dfd-8fcc-45b924b254ae",
+        "FirstName": "Casey",
+        "LastName": "Lee",
+        "Dob": "1992-12-02",
+        "Phone": "\u002B61466666666",
+        "Email": null,
+        "Insurance": {
+          "Provider": "MediPlus",
+          "MemberId": "MP-19999"
+        }
+      },
+      "Provider": {
+        "Id": "f700b2f7-a615-4cc3-a4b6-d0247d8b7d41",
+        "Name": "Dr. Grace Taylor",
+        "Role": "GP"
+      },
+      "Location": {
+        "Type": "Telehealth",
+        "ClinicName": null,
+        "Room": null,
+        "Address": null,
+        "Timezone": "Australia/Sydney"
+      },
+      "StartTime": "2026-03-21T16:00:00+11:00",
+      "EndTime": "2026-03-21T16:25:00+11:00",
+      "CreatedAt": "2026-03-14T16:00:00+11:00",
+      "UpdatedAt": "2026-03-15T16:00:00+11:00",
+      "Price": {
+        "Amount": 95.0,
+        "Currency": "AUD"
+      },
+      "RescheduleCount": 0,
+      "Notes": "Telehealth contact info missing",
+      "CancellationPolicyHours": 24,
+      "Tags": [],
+      "Warnings": [
+        "Telehealth appointments should have patient email and phone specified"
+      ]
+    },
+    {
+      "Id": "0008a3b1-cd42-4af4-b63a-44b53cb44cf9",
+      "Category": "Physiotherapy",
+      "Status": "Booked",
+      "Patient": {
+        "Id": "ac0653e4-f5e9-4efd-b4cb-b35de65e06a6",
+        "FirstName": "Liam",
+        "LastName": "O\u0027Connor",
+        "Dob": "2016-07-21",
+        "Phone": "\u002B61433333333",
+        "Email": "parent.oconnor@example.com",
+        "Insurance": {
+          "Provider": "KidsCare",
+          "MemberId": "KC-10003"
+        }
+      },
+      "Provider": {
+        "Id": "618d1caa-67e6-44d4-b9d2-b08d9310af76",
+        "Name": "Ava Thompson",
+        "Role": "Physiotherapist"
+      },
+      "Location": {
+        "Type": "InPerson",
+        "ClinicName": "Harbour Health Clinic",
+        "Room": "R3",
+        "Address": "Level 5, 123 George St, Sydney NSW",
+        "Timezone": "Australia/Sydney"
+      },
+      "StartTime": "2026-03-24T22:00:00+11:00",
+      "EndTime": "2026-03-24T22:30:00+11:00",
+      "CreatedAt": "2026-03-17T22:00:00+11:00",
+      "UpdatedAt": "2026-03-18T22:00:00+11:00",
+      "Price": {
+        "Amount": 95.0,
+        "Currency": "AUD"
+      },
+      "RescheduleCount": 0,
+      "Notes": "Shoulder mobility",
+      "CancellationPolicyHours": 24,
+      "Tags": [],
+      "Warnings": []
+    },
+    {
+      "Id": "182bb881-aa3e-476d-8b83-b564ea4a9953",
+      "Category": "Optometry",
+      "Status": "Booked",
+      "Patient": {
+        "Id": "7b4c3a1f-e5f7-48fb-93f6-ece7ceb4fb8d",
+        "FirstName": "Ethan",
+        "LastName": "Wang",
+        "Dob": "1979-09-30",
+        "Phone": "\u002B61455555555",
+        "Email": "ethan.wang@example.com",
+        "Insurance": {
+          "Provider": "HealthOne",
+          "MemberId": "HO-10005"
+        }
+      },
+      "Provider": {
+        "Id": "a6d40938-d103-49e9-8c21-d709de119b32",
+        "Name": "Dr. Noah Patel",
+        "Role": "Optometrist"
+      },
+      "Location": {
+        "Type": "InPerson",
+        "ClinicName": "Harbour Health Clinic",
+        "Room": "R5",
+        "Address": "Level 5, 123 George St, Sydney NSW",
+        "Timezone": "Australia/Sydney"
+      },
+      "StartTime": "2026-03-25T21:30:00+11:00",
+      "EndTime": "2026-03-25T22:00:00+11:00",
+      "CreatedAt": "2026-03-18T21:30:00+11:00",
+      "UpdatedAt": "2026-03-19T21:30:00+11:00",
+      "Price": {
+        "Amount": 95.0,
+        "Currency": "AUD"
+      },
+      "RescheduleCount": 0,
+      "Notes": "Contact lens fitting",
+      "CancellationPolicyHours": 24,
+      "Tags": [],
+      "Warnings": []
+    },
+    {
+      "Id": "304abe41-441b-4cf8-8514-9992255178e1",
+      "Category": "Dermatology",
+      "Status": "Booked",
+      "Patient": {
+        "Id": "ac587f5e-1fc9-4e3a-bc94-9359a3fef9a7",
+        "FirstName": "Priya",
+        "LastName": "Sharma",
+        "Dob": "1985-11-03",
+        "Phone": "\u002B61422222222",
+        "Email": "priya.sharma@example.com",
+        "Insurance": {
+          "Provider": "HealthOne",
+          "MemberId": "HO-10002"
+        }
+      },
+      "Provider": {
+        "Id": "19f3136c-2864-4fb1-ab74-72c5ce1dff00",
+        "Name": "Dr. Emily Zhou",
+        "Role": "Dermatologist"
+      },
+      "Location": {
+        "Type": "InPerson",
+        "ClinicName": "Harbour Health Clinic",
+        "Room": "R2",
+        "Address": "Level 5, 123 George St, Sydney NSW",
+        "Timezone": "Australia/Sydney"
+      },
+      "StartTime": "2026-03-26T23:00:00+11:00",
+      "EndTime": "2026-03-26T23:30:00+11:00",
+      "CreatedAt": "2026-03-19T23:00:00+11:00",
+      "UpdatedAt": "2026-03-20T23:00:00+11:00",
+      "Price": {
+        "Amount": 95.0,
+        "Currency": "AUD"
+      },
+      "RescheduleCount": 0,
+      "Notes": "Acne treatment",
+      "CancellationPolicyHours": 24,
+      "Tags": [],
+      "Warnings": []
+    },
+    {
+      "Id": "f256eabd-f971-4938-b9f1-30150382c9e6",
+      "Category": "Dental",
+      "Status": "Booked",
+      "Patient": {
+        "Id": "48444a1a-7491-418b-ac85-d7574862511b",
+        "FirstName": "Alex",
+        "LastName": "Nguyen",
+        "Dob": "1990-05-12",
+        "Phone": "\u002B61411111111",
+        "Email": "alex.nguyen@example.com",
+        "Insurance": {
+          "Provider": "MediPlus",
+          "MemberId": "MP-10001"
+        }
+      },
+      "Provider": {
+        "Id": "484a90a7-2804-4c6e-bec5-c9684b7ffc32",
+        "Name": "Dr. Michael Chen",
+        "Role": "Dentist"
+      },
+      "Location": {
+        "Type": "InPerson",
+        "ClinicName": "Harbour Health Clinic",
+        "Room": "R1",
+        "Address": "Level 5, 123 George St, Sydney NSW",
+        "Timezone": "Australia/Sydney"
+      },
+      "StartTime": "2026-03-28T02:00:00+11:00",
+      "EndTime": "2026-03-28T02:45:00+11:00",
+      "CreatedAt": "2026-03-21T02:00:00+11:00",
+      "UpdatedAt": "2026-03-22T02:00:00+11:00",
+      "Price": {
+        "Amount": 220.0,
+        "Currency": "AUD"
+      },
+      "RescheduleCount": 0,
+      "Notes": "Filling replacement",
+      "CancellationPolicyHours": 24,
+      "Tags": [],
+      "Warnings": []
+    },
+    {
+      "Id": "2a5dcddf-6514-4926-aeda-f7cb76195166",
+      "Category": "GP",
+      "Status": "Booked",
+      "Patient": {
+        "Id": "0d2ccb28-5b08-4756-81fc-71690e17954a",
+        "FirstName": "Sofia",
+        "LastName": "Martinez",
+        "Dob": "1998-02-14",
+        "Phone": "\u002B61444444444",
+        "Email": "sofia.martinez@example.com",
+        "Insurance": {
+          "Provider": "MediPlus",
+          "MemberId": "MP-10004"
+        }
+      },
+      "Provider": {
+        "Id": "f700b2f7-a615-4cc3-a4b6-d0247d8b7d41",
+        "Name": "Dr. Grace Taylor",
+        "Role": "GP"
+      },
+      "Location": {
+        "Type": "InPerson",
+        "ClinicName": "Harbour Health Clinic",
+        "Room": "R4",
+        "Address": "Level 5, 123 George St, Sydney NSW",
+        "Timezone": "Australia/Sydney"
+      },
+      "StartTime": "2026-03-29T01:00:00+11:00",
+      "EndTime": "2026-03-29T01:30:00+11:00",
+      "CreatedAt": "2026-03-22T01:00:00+11:00",
+      "UpdatedAt": "2026-03-23T01:00:00+11:00",
+      "Price": {
+        "Amount": 95.0,
+        "Currency": "AUD"
+      },
+      "RescheduleCount": 0,
+      "Notes": "Medication review",
+      "CancellationPolicyHours": 24,
+      "Tags": [],
+      "Warnings": []
+    },
+    {
+      "Id": "003d9d65-fb02-4370-bc5b-9a8aae5628b7",
+      "Category": "Physiotherapy",
+      "Status": "Booked",
+      "Patient": {
+        "Id": "7b4c3a1f-e5f7-48fb-93f6-ece7ceb4fb8d",
+        "FirstName": "Ethan",
+        "LastName": "Wang",
+        "Dob": "1979-09-30",
+        "Phone": "\u002B61455555555",
+        "Email": "ethan.wang@example.com",
+        "Insurance": {
+          "Provider": "HealthOne",
+          "MemberId": "HO-10005"
+        }
+      },
+      "Provider": {
+        "Id": "618d1caa-67e6-44d4-b9d2-b08d9310af76",
+        "Name": "Ava Thompson",
+        "Role": "Physiotherapist"
+      },
+      "Location": {
+        "Type": "InPerson",
+        "ClinicName": "Harbour Health Clinic",
+        "Room": "R5",
+        "Address": "Level 5, 123 George St, Sydney NSW",
+        "Timezone": "Australia/Sydney"
+      },
+      "StartTime": "2026-03-29T20:30:00+11:00",
+      "EndTime": "2026-03-29T21:30:00+11:00",
+      "CreatedAt": "2026-03-22T20:30:00+11:00",
+      "UpdatedAt": "2026-03-23T20:30:00+11:00",
+      "Price": {
+        "Amount": 95.0,
+        "Currency": "AUD"
+      },
+      "RescheduleCount": 0,
+      "Notes": "Back pain session",
+      "CancellationPolicyHours": 24,
+      "Tags": [],
+      "Warnings": []
+    },
+    {
+      "Id": "4b948920-97ec-4650-9fe9-432de330e316",
+      "Category": "Pediatrics",
+      "Status": "Booked",
+      "Patient": {
+        "Id": "ac0653e4-f5e9-4efd-b4cb-b35de65e06a6",
+        "FirstName": "Liam",
+        "LastName": "O\u0027Connor",
+        "Dob": "2016-07-21",
+        "Phone": "\u002B61433333333",
+        "Email": "parent.oconnor@example.com",
+        "Insurance": {
+          "Provider": "KidsCare",
+          "MemberId": "KC-10003"
+        }
+      },
+      "Provider": {
+        "Id": "37dfd8d1-9576-4b55-a2d3-63a9de0fc688",
+        "Name": "Dr. Olivia Brown",
+        "Role": "Pediatrician"
+      },
+      "Location": {
+        "Type": "InPerson",
+        "ClinicName": "Harbour Health Clinic",
+        "Room": "R3",
+        "Address": "Level 5, 123 George St, Sydney NSW",
+        "Timezone": "Australia/Sydney"
+      },
+      "StartTime": "2026-03-31T03:00:00+11:00",
+      "EndTime": "2026-03-31T03:30:00+11:00",
+      "CreatedAt": "2026-03-24T03:00:00+11:00",
+      "UpdatedAt": "2026-03-25T03:00:00+11:00",
+      "Price": {
+        "Amount": 95.0,
+        "Currency": "AUD"
+      },
+      "RescheduleCount": 0,
+      "Notes": "Growth check",
+      "CancellationPolicyHours": 24,
+      "Tags": [],
+      "Warnings": []
+    },
+    {
+      "Id": "57f69905-c29a-4678-b376-667ccef39817",
+      "Category": "Optometry",
+      "Status": "Booked",
+      "Patient": {
+        "Id": "ac587f5e-1fc9-4e3a-bc94-9359a3fef9a7",
+        "FirstName": "Priya",
+        "LastName": "Sharma",
+        "Dob": "1985-11-03",
+        "Phone": "\u002B61422222222",
+        "Email": "priya.sharma@example.com",
+        "Insurance": {
+          "Provider": "HealthOne",
+          "MemberId": "HO-10002"
+        }
+      },
+      "Provider": {
+        "Id": "a6d40938-d103-49e9-8c21-d709de119b32",
+        "Name": "Dr. Noah Patel",
+        "Role": "Optometrist"
+      },
+      "Location": {
+        "Type": "InPerson",
+        "ClinicName": "Harbour Health Clinic",
+        "Room": "R2",
+        "Address": "Level 5, 123 George St, Sydney NSW",
+        "Timezone": "Australia/Sydney"
+      },
+      "StartTime": "2026-03-31T21:00:00+11:00",
+      "EndTime": "2026-03-31T22:00:00+11:00",
+      "CreatedAt": "2026-03-24T21:00:00+11:00",
+      "UpdatedAt": "2026-03-25T21:00:00+11:00",
+      "Price": {
+        "Amount": 95.0,
+        "Currency": "AUD"
+      },
+      "RescheduleCount": 0,
+      "Notes": "Diabetic eye exam",
+      "CancellationPolicyHours": 24,
+      "Tags": [],
+      "Warnings": []
+    },
+    {
+      "Id": "2038aa01-44bb-4ad5-9087-3060c02cb038",
+      "Category": "Dermatology",
+      "Status": "Booked",
+      "Patient": {
+        "Id": "48444a1a-7491-418b-ac85-d7574862511b",
+        "FirstName": "Alex",
+        "LastName": "Nguyen",
+        "Dob": "1990-05-12",
+        "Phone": "\u002B61411111111",
+        "Email": "alex.nguyen@example.com",
+        "Insurance": {
+          "Provider": "MediPlus",
+          "MemberId": "MP-10001"
+        }
+      },
+      "Provider": {
+        "Id": "19f3136c-2864-4fb1-ab74-72c5ce1dff00",
+        "Name": "Dr. Emily Zhou",
+        "Role": "Dermatologist"
+      },
+      "Location": {
+        "Type": "InPerson",
+        "ClinicName": "Harbour Health Clinic",
+        "Room": "R1",
+        "Address": "Level 5, 123 George St, Sydney NSW",
+        "Timezone": "Australia/Sydney"
+      },
+      "StartTime": "2026-04-01T22:00:00+11:00",
+      "EndTime": "2026-04-01T22:30:00+11:00",
+      "CreatedAt": "2026-03-25T22:00:00+11:00",
+      "UpdatedAt": "2026-03-26T22:00:00+11:00",
+      "Price": {
+        "Amount": 95.0,
+        "Currency": "AUD"
+      },
+      "RescheduleCount": 0,
+      "Notes": "Eczema review",
+      "CancellationPolicyHours": 24,
+      "Tags": [],
+      "Warnings": []
+    },
+    {
+      "Id": "c61189cf-c745-452a-aad2-1bad02d68f50",
+      "Category": "GP",
+      "Status": "Booked",
+      "Patient": {
+        "Id": "7b4c3a1f-e5f7-48fb-93f6-ece7ceb4fb8d",
+        "FirstName": "Ethan",
+        "LastName": "Wang",
+        "Dob": "1979-09-30",
+        "Phone": "\u002B61455555555",
+        "Email": "ethan.wang@example.com",
+        "Insurance": {
+          "Provider": "HealthOne",
+          "MemberId": "HO-10005"
+        }
+      },
+      "Provider": {
+        "Id": "f700b2f7-a615-4cc3-a4b6-d0247d8b7d41",
+        "Name": "Dr. Grace Taylor",
+        "Role": "GP"
+      },
+      "Location": {
+        "Type": "InPerson",
+        "ClinicName": "Harbour Health Clinic",
+        "Room": "R5",
+        "Address": "Level 5, 123 George St, Sydney NSW",
+        "Timezone": "Australia/Sydney"
+      },
+      "StartTime": "2026-04-02T23:00:00+11:00",
+      "EndTime": "2026-04-02T23:30:00+11:00",
+      "CreatedAt": "2026-03-26T23:00:00+11:00",
+      "UpdatedAt": "2026-03-27T23:00:00+11:00",
+      "Price": {
+        "Amount": 95.0,
+        "Currency": "AUD"
+      },
+      "RescheduleCount": 0,
+      "Notes": "Annual physical",
+      "CancellationPolicyHours": 24,
+      "Tags": [],
+      "Warnings": []
+    },
+    {
+      "Id": "e6eb0ab8-8591-40f2-8d64-293710504ced",
+      "Category": "Dental",
+      "Status": "Completed",
+      "Patient": {
+        "Id": "0d2ccb28-5b08-4756-81fc-71690e17954a",
+        "FirstName": "Sofia",
+        "LastName": "Martinez",
+        "Dob": "1998-02-14",
+        "Phone": "\u002B61444444444",
+        "Email": "sofia.martinez@example.com",
+        "Insurance": {
+          "Provider": "MediPlus",
+          "MemberId": "MP-10004"
+        }
+      },
+      "Provider": {
+        "Id": "484a90a7-2804-4c6e-bec5-c9684b7ffc32",
+        "Name": "Dr. Michael Chen",
+        "Role": "Dentist"
+      },
+      "Location": {
+        "Type": "InPerson",
+        "ClinicName": "Harbour Health Clinic",
+        "Room": "R4",
+        "Address": "Level 5, 123 George St, Sydney NSW",
+        "Timezone": "Australia/Sydney"
+      },
+      "StartTime": "2026-04-05T21:00:00+11:00",
+      "EndTime": "2026-04-05T21:30:00+11:00",
+      "CreatedAt": "2026-03-29T21:00:00+11:00",
+      "UpdatedAt": "2026-03-30T21:00:00+11:00",
+      "Price": {
+        "Amount": 150.0,
+        "Currency": "AUD"
+      },
+      "RescheduleCount": 0,
+      "Notes": "Data anomaly: completed in future",
+      "CancellationPolicyHours": 24,
+      "Tags": [],
+      "Warnings": [
+        "Appointment is marked as Completed but start time is in the future"
+      ]
+    }
+  ]
+}
