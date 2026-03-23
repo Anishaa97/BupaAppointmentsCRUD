@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bupa.Appointments.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37ecf9f6805605ab9490b9ee37ed2c3ad26024cf")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bupa.Appointments.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bupa.Appointments.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
